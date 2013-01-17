@@ -1,0 +1,14 @@
+inherit pypy-distutils
+
+NAME="pypy-xlib"
+VERSION=0.15rc1
+RELEASE=1
+CATEGORY="Python"
+SUMMARY="Pure Python X11 interface for PyPy"
+DESCRIPTION="The Python X Library is intended to be a fully functional X client
+library for Python programs.  It is written entirely in Python, in contrast to
+earlier X libraries for Python (the ancient X extension and the newer plxlib)
+which were interfaces to the C Xlib."
+HOMEPAGE="http://python-xlib.sourceforge.net/"
+SRC_URI="mirror://sourceforge/python-xlib/python-xlib-${VERSION}.tar.gz"
+SRC_DIR="python-xlib-${VERSION}"
